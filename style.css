@@ -1,0 +1,53 @@
+.celula {
+    width: 96px;
+    height: 96px;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    text-align: center;
+    cursor: pointer;
+}
+
+.celula:hover {
+    background-color: #f0f0f0;
+}
+.celula div {
+    width: 96px;
+    height: 96px;
+    font-size: 50px;
+    padding-top: 15px;
+
+}
+
+.sem-borda-left {
+    border-left:none;
+}
+
+.sem-borda-bottom {
+    border-bottom:none;
+}
+
+.button-reset {
+    margin-top: 15px;
+    background-color: rgb(56, 224, 31);
+    transition: 300ms ease all;
+}
+
+.button-reset:hover {
+    background-color: rgb(58, 172, 220);;
+}
+
+body {
+    background-color:rgb(71, 7, 99) ;
+    text-align: center;
+
+}
+
+h1 {
+    color: rgb(56, 224, 31);
+}
+
+.container {
+    width: 300px;
+    background-color: white;
+    margin:0 auto;
+}

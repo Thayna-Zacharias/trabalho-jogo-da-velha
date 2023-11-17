@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Jogo da Velha</h1>
+    <div class="container">
+       
+        <table id="game-board">
+            <tr>
+                <td class="celula sem-borda-left">
+                    <div id="celula1"></div>
+                </td>
+                <td class="celula">
+                    <div id="celula2"></div>
+                </td>
+                <td class="celula">
+                    <div id="celula3"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="celula sem-borda-left">
+                    <div id="celula4"></div>
+                </td>
+                <td class="celula">
+                    <div id="celula5"></div>
+                </td>
+                <td class="celula">
+                    <div id="celula6"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="celula sem-borda-left sem-borda-bottom">
+                    <div id="celula7"></div>
+                </td>
+                <td class="celula sem-borda-bottom">
+                    <div id="celula8"></div>
+                </td>
+                <td class="celula sem-borda-bottom">
+                    <div id="celula9"></div>
+                </td>
+            </tr>
+        </table>
+       
+    </div>
+    <button class="button-reset" onclick="resetarPartida()">Recomeçar Partida</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
